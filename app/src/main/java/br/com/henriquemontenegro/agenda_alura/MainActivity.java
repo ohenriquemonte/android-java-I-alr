@@ -25,13 +25,5 @@ public class MainActivity extends AppCompatActivity {
 		List<String> alunos = new ArrayList<>(Arrays.asList("Henrique", "Bueno", "Montenegro"));
 		ListView listaDeAlunos = findViewById(R.id.activity_main_lista_de_alunos);
 		listaDeAlunos.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, alunos));
-
-//		TextView primeiroAluno = findViewById(R.id.textView);
-//		TextView segundoAluno = findViewById(R.id.textView2);
-//		TextView terceiroAluno = findViewById(R.id.textView3);
-//
-//		primeiroAluno.setText(alunos.get(0));
-//		segundoAluno.setText(alunos.get(1));
-//		terceiroAluno.setText(alunos.get(2));
 	}
 }
