@@ -5,18 +5,20 @@
 	android:orientation="vertical">
 
 	<com.google.android.material.floatingactionbutton.FloatingActionButton
-		android:id="@+id/activity_main_fab_novo_aluno"
+		android:id="@+id/activity_lista_alunos_fab_novo_aluno"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		app:fabSize="mini"
 		android:layout_alignParentEnd="true"
 		android:layout_alignParentBottom="true"
-		android:layout_marginEnd="26dp"
-		android:layout_marginBottom="26dp"
-		android:clickable="true" />
+		android:layout_marginEnd="16dp"
+		android:layout_marginBottom="16dp"
+		android:clickable="true"
+		android:focusable="true" 
+		android:src="@drawable/ic_action_novo_aluno"/>
 
 	<ListView
-		android:id="@+id/activity_main_lista_de_alunos"
+		android:id="@+id/activity_lista_alunos_listview"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" />
 
